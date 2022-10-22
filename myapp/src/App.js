@@ -1,4 +1,5 @@
 import Header1 from "./header1/header1";
+import Header2 from "./header2/header2";
 
 
 //bootStrap
@@ -8,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <Header1/>
+      <Header2/>
     </div>
   );
 }

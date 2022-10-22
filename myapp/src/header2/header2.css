@@ -1,0 +1,27 @@
+.Header2Fundo{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.header2Opcoes{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    height: 22px;
+    cursor:pointer;
+}
+.boxAmarelo{
+    background-color: #FFD700;
+    padding: 0 10px;
+    color: black;
+    height: 30px;
+    font-weight: 700;
+    border-radius: 30px;
+}
+.boxAmarelo p{
+    margin-top: 3px;
+}

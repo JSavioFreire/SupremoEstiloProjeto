@@ -1,4 +1,5 @@
 import './header1.css';
+import '../cssGlobal/global.css'
 
 //img
 import logo from '../img/logo.png'
@@ -11,7 +12,7 @@ export default function Header1(){
 
     return(
         <div className="header1Fundo">
-            <div className='header1Noventa'>
+            <div className='Noventa'>
 
             
                 <img src={logo} className="header1Logo"/>
