@@ -1,4 +1,35 @@
 .banners{
-    width: 50%;
+    width: 60%;
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.153);
+}
+.flex{
+    display: flex;
+    
+}
+.boxGiant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+.boxMenor{
+    background-color: white;
+    padding: 10px 25px;
+    border: 1px solid rgb(65, 65, 65);
+    display: flex;
+    width: 250px;
+    height: 110px;
+    align-items: center;
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.153);
+    font-family: 'Roboto', sans-serif;
 
+}
+.boxMenor img{
+    width: 60px;
+}
+.boxMenor p{
+    margin-left: 30px;
+
+    margin-top: 15px;
 }
