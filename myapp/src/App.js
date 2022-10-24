@@ -3,6 +3,7 @@ import Header2 from "./header2/header2";
 import Banner from "./banner/banner";
 import TituloProdutos from "./tituloProdutos/tituloProdutos";
 import LinhaProdutos from "./linhaProdutos/linhaProdutos";
+import Footer from "./footer/footer";
 
 //bootStrap
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,6 +16,7 @@ function App() {
       <Banner/>
       <TituloProdutos/>
       <LinhaProdutos/>
+      <Footer/>
     </div>
   );
 }

@@ -1,8 +1,52 @@
 .produtos{
     width: 30%;
     display: flex;
-
+    flex-direction: column;
 }
-.produtos img{
+.produtos .imgProduto{
+    width: 100%;
 
+    
+}
+.produtos .sobreProduto{
+    width: 72%;
+    position: relative;
+    margin: -50px auto 0 auto;
+    background-color: white;
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.153);
+    color: #777777;
+    padding: 5px;
+    height: 115px;
+    
+}
+.sobreProduto h2{
+    font-size: 16px;
+    text-align: center;
+}
+.dePor{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.dePor p{
+    width: 50%;
+}
+.valor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.valor p{
+    margin-top: -20px;
+    color: rgb(225, 35, 35);
+    text-decoration: line-through 0.5px;
+}
+.valor h4{
+    margin-top: -20px;
+    color: black;
+}
+.parcela{
+    text-align: right;
+    margin-top: -20px;
+    margin-right: 10px;
 }

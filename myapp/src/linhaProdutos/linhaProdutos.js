@@ -10,8 +10,37 @@ export default function LinhaProdutos(){
         <div className='fundo'>
             <div className='setenta'>
                 <div className='linha'>
-                    <Produtos img={produto1}/>
-             
+                    
+                    <Produtos img={produto1} nomeProduto='Vestido NightStyle Rosa' valorAnterior='129,99' novoValor='99,90' parcelas='2x sem juros'/>
+
+                    <Produtos img={produto1} nomeProduto='Vestido NightStyle Rosa' valorAnterior='129,99' novoValor='99,90' parcelas='2x sem juros'/>
+
+                    <Produtos img={produto1} nomeProduto='Vestido NightStyle Rosa' valorAnterior='129,99' novoValor='99,90' parcelas='2x sem juros'/>
+
+                    <Produtos img={produto1} nomeProduto='Vestido NightStyle Rosa' valorAnterior='129,99' novoValor='99,90' parcelas='2x sem juros'/>
+
+                </div>
+                <div className='linha'>
+
+                    <Produtos img={produto1} nomeProduto='Vestido NightStyle Rosa' valorAnterior='129,99' novoValor='99,90' parcelas='2x sem juros'/>
+
+                    <Produtos img={produto1} nomeProduto='Vestido NightStyle Rosa' valorAnterior='129,99' novoValor='99,90' parcelas='2x sem juros'/>
+
+                    <Produtos img={produto1} nomeProduto='Vestido NightStyle Rosa' valorAnterior='129,99' novoValor='99,90' parcelas='2x sem juros'/>
+
+                    <Produtos img={produto1} nomeProduto='Vestido NightStyle Rosa' valorAnterior='129,99' novoValor='99,90' parcelas='2x sem juros'/>
+
+                </div>
+                <div className='linha'>
+
+                    <Produtos img={produto1} nomeProduto='Vestido NightStyle Rosa' valorAnterior='129,99' novoValor='99,90' parcelas='2x sem juros'/>
+
+                    <Produtos img={produto1} nomeProduto='Vestido NightStyle Rosa' valorAnterior='129,99' novoValor='99,90' parcelas='2x sem juros'/>
+
+                    <Produtos img={produto1} nomeProduto='Vestido NightStyle Rosa' valorAnterior='129,99' novoValor='99,90' parcelas='2x sem juros'/>
+                    
+                    <Produtos img={produto1} nomeProduto='Vestido NightStyle Rosa' valorAnterior='129,99' novoValor='99,90' parcelas='2x sem juros'/>
+
                 </div>
             </div>
         </div>

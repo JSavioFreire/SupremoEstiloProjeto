@@ -1,0 +1,20 @@
+.footerFundo{
+    background-color: #333333;
+    width: 100%;
+    padding: 50px 0;
+    color: #dcdcdc;
+    font-family: 'Roboto',sans-serif;
+}
+.menu{
+    width: 25%;
+}
+.menu h4{
+    margin-bottom: 50px;
+}
+.menu p{
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+}
