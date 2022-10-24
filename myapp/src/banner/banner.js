@@ -7,7 +7,6 @@ import caminhao from '../img/caminhao.png'
 import card from '../img/card.png'
 import seg from '../img/seguranca.png'
 
-
 export default function Banner(){
 
     return(
