@@ -1,12 +1,17 @@
 .footerFundo{
     background-color: #333333;
     width: 100%;
-    padding: 50px 0;
+    padding: 50px 0 3px 0;
     color: #dcdcdc;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto',sans-serif;   
 }
-.menu{
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.todosFooter{
     width: 25%;
+   
 }
 .menu h4{
     margin-bottom: 50px;
@@ -17,4 +22,50 @@
 .footer{
     display: flex;
     flex-direction: row;
+}
+.cadaContato{
+    display: flex;
+    flex-direction: row;
+}
+.cadaContato img{
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    margin-right: 10px;
+    
+}
+.contato h4{
+    margin-bottom: 50px;
+
+}
+.siga{
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+}
+.siga h4{
+    margin-top: 25px;
+}
+.cadaSiga img{
+    width: 50px;
+    margin: 10px 0;
+}   
+.endereco img{
+    height: 20px;
+    margin-top: -1px;
+}
+.endereco h4{
+    margin-bottom: 50px;
+
+}
+.direitos{
+    text-align: center;
+    font-size: 12px;
+
+}
+.map{
+    width: 280px;
+    height: 280px;
+    background-color: gray;
 }
