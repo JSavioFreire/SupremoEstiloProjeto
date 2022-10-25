@@ -1,11 +1,10 @@
 import './map.css'
-
 import React from 'react'
-import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
+import { GoogleMap, Marker, useJsApiLoader } from '@react-google-maps/api';
 
-const center = {
-  lat: -22.8839065,
-  lng: -43.418966
+const position = {
+  lat: -22.8808387,
+  lng: -43.4217293
 };
 
 function MyComponent() {
@@ -14,28 +13,20 @@ function MyComponent() {
     googleMapsApiKey: "AIzaSyCYpVhhIq9TEb2fo4pfNVYtvSNMzYrqh1c"
   })
 
-  const [map, setMap] = React.useState(null)
-
-  const onLoad = React.useCallback(function callback(map) {
-    const bounds = new window.google.maps.LatLngBounds(center);
-    map.fitBounds(bounds);
-    setMap(map)
-  }, [])
-
-  const onUnmount = React.useCallback(function callback(map) {
-    setMap(null)
-  }, [])
-
   return isLoaded ? (
       <GoogleMap
         mapContainerStyle={{width:'100%',height:'100%'}}
-        center={center}
-        zoom={8}
-        onLoad={onLoad}
-        onUnmount={onUnmount}
+        center={position}
+        zoom={16}
       >
-        { /* Child components, such as markers, info windows, etc. */ }
-        <></>
+
+      <Marker position={position} options={{
+        label: {
+          text:'Estamos Aqui',
+          className:'mapLabel'
+        },
+      }}/>
+        
       </GoogleMap>
   ) : <></>
 }

@@ -21,9 +21,6 @@ export default function Header2(){
                     <p>Night</p>
                 </div>
                 <div className='header2Opcoes'>
-                    <p>Guias de Medidas</p>
-                </div>
-                <div className='header2Opcoes'>
                     <p>Quem Somos</p>
                 </div>
             </div>
