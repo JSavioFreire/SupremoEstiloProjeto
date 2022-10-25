@@ -65,7 +65,7 @@
 
 }
 .map{
-    width: 280px;
+    width: 420px;
     height: 280px;
-    background-color: gray;
+    margin-left: -50px;
 }
