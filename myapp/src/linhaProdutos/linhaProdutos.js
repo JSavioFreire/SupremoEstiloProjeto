@@ -1,6 +1,6 @@
 import './linhaProdutos.css'
 import '../cssGlobal/global.css'
-import produto1 from '../img/night.png'
+import produto1 from '../imgProdutos/night.png'
 
 import Produtos from '../produtosProps/produtosProps'
 
