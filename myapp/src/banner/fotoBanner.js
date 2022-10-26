@@ -27,8 +27,6 @@ export default function ControlledCarousel() {
           src={banner2}
           alt="Second slide"
         />
-
-
       </Carousel.Item>
       <Carousel.Item>
         <img
