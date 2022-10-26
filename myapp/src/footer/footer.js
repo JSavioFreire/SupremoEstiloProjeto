@@ -22,6 +22,7 @@ export default function Footer(){
                         <p>Praia</p>
                         <p>Fitness</p>
                         <p>Night</p>
+                        <p>Acessórios</p>
                         <p>Quem Somos</p>
                     </div>
 
